@@ -18,8 +18,6 @@
     See the License for the specific language governing permissions and
     limitations under the License.
  -->
-    <!-- Dojo js modules will get injected just after the following place holder during build -->
-    <!-- @inject-dojo-deps-here@ -->
 
     <amd>
         <fileset>
@@ -35,10 +33,10 @@
     </amd>
 
     <module>
-        <name>ArcgisGears</name>
+        <name>arcGisGears</name>
         <native-amd>true</native-amd>
         <script>
-            <path>/js/arcgis-gears.js</path>
+            <path>/js/arcGisGears.js</path>
         </script>
     </module>
 
@@ -62,7 +60,7 @@
         <name>ArcGisGearsPortlet</name>
         <module>
             <depends>
-                <module>ArcgisGears</module>
+                <module>arcGisGears</module>
             </depends>
         </module>
     </portlet>
