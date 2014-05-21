@@ -1,4 +1,4 @@
 <div class="ArcGisGearsPortletContainer claro">
-    <span id="dojoWorks">A portlet with an ArcGIS map</span>
+    <h1>A portlet with an ArcGIS map</h1>
     <div id="map"></div>
 </div>

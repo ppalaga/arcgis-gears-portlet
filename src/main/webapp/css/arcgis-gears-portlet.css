@@ -1,16 +1,12 @@
-@import url('../arcgis-js-api-library-3.9-js/dojo/dijit/themes/claro/claro.css');
-@import url('../arcgis-js-api-library-3.9-js/esri/css/esri.css');
+@import url('//js.arcgis.com/3.9/js/dojo/dijit/themes/claro/claro.css');
+@import url('//js.arcgis.com/3.9/js/esri/css/esri.css');
 
 div.ArcGisGearsPortletContainer {
     border: solid 1px #99C;
     position: relative;
     padding: 10px;
-    height: 600px;
+    height: 450px;
     margin: 0 7px 7px 7px;
-}
-div.ArcGisGearsPortletContainer span {
-    font-size: 26px;
-    font-weight: bold;
 }
 
 div.ArcGisGearsPortletWithButtonContainer {
