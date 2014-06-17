@@ -35,34 +35,34 @@
     </amd>
 
     <module>
-        <name>arcGisGears</name>
+        <name>arcGisGearsClone</name>
         <native-amd>true</native-amd>
         <script>
-            <path>/js/arcGisGears.js</path>
+            <path>/js/arcGisGearsClone.js</path>
         </script>
     </module>
 
     <!-- Skin definition for GateIn -->
     <portlet-skin>
-        <application-name>arcgis-gears-portlet</application-name>
-        <portlet-name>ArcGisGearsPortlet</portlet-name>
+        <application-name>arcgis-gears-portlet-clone</application-name>
+        <portlet-name>ArcGisGearsPortletClone</portlet-name>
         <skin-name>Default</skin-name>
-        <css-path>/css/arcgis-gears-portlet.css</css-path>
+        <css-path>/css/arcgis-gears-portlet-clone.css</css-path>
     </portlet-skin>
 
     <!-- Skin definition for JBoss Portal -->
     <portlet-skin>
-        <application-name>arcgis-gears-portlet</application-name>
-        <portlet-name>ArcGisGearsPortlet</portlet-name>
+        <application-name>arcgis-gears-portlet-clone</application-name>
+        <portlet-name>ArcGisGearsPortletClone</portlet-name>
         <skin-name>JppSkin</skin-name>
-        <css-path>/css/arcgis-gears-portlet.css</css-path>
+        <css-path>/css/arcgis-gears-portlet-clone.css</css-path>
     </portlet-skin>
 
     <portlet>
-        <name>ArcGisGearsPortlet</name>
+        <name>ArcGisGearsPortletClone</name>
         <module>
             <depends>
-                <module>arcGisGears</module>
+                <module>arcGisGearsClone</module>
             </depends>
         </module>
     </portlet>

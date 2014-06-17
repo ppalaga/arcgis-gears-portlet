@@ -30,12 +30,12 @@ import javax.portlet.RenderResponse;
  *
  * @author Peter Palaga
  */
-public class ArcGisGearsPortlet extends GenericPortlet {
+public class ArcGisGearsPortletClone extends GenericPortlet {
 
     @Override
     public void doView(RenderRequest request, RenderResponse response) throws IOException, PortletException {
         /* Nothing special here, just eval /jsp/dojo-portlet.jsp */
-        PortletRequestDispatcher prd = getPortletContext().getRequestDispatcher("/jsp/arcgis-gears-portlet.jsp");
+        PortletRequestDispatcher prd = getPortletContext().getRequestDispatcher("/jsp/arcgis-gears-portlet-clone.jsp");
         prd.include(request, response);
     }
 }

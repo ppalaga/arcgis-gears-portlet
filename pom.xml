@@ -19,7 +19,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arcgis-gears-portlet</artifactId>
+    <artifactId>arcgis-gears-portlet-clone</artifactId>
     <groupId>org.jboss.portal.scratch</groupId>
     <name>ArcGis Gears Portlet</name>
     <version>0.0.1-SNAPSHOT</version>
